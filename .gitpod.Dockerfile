@@ -1,3 +1,4 @@
 FROM gitpod/workspace-python-3.10
 
-RUN npm install
+
+RUN npm install -g npm@latest
